@@ -1,38 +1,37 @@
-🧠 ChatbotAI – Java-Based Rule-Based Chatbot using Stanford CoreNLP
-ChatbotAI is a simple rule-based chatbot built with Java and powered by the Stanford CoreNLP library for basic natural language processing (NLP) tasks such as tokenization and sentence splitting. This project demonstrates how to create a lightweight conversational assistant using keyword-based logic and NLP preprocessing.
+<h1 align="center">🧠 ChatbotAI</h1> <p align="center"><b>A Java-Based Rule-Based Chatbot using Stanford CoreNLP</b></p> <p align="center"> <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white"/> <img src="https://img.shields.io/badge/NLP-Stanford%20CoreNLP-red?style=for-the-badge"/> </p>
+ChatbotAI is a lightweight, rule-based chatbot developed in Java and powered by Stanford CoreNLP for simple natural language processing tasks such as tokenization and sentence splitting. It's a beginner-friendly project that demonstrates the fundamentals of building a console-based conversational assistant.
 
 🔧 Technologies Used
-Java – Core language used for development
-
-Stanford CoreNLP (v4.5.1) – For text processing (tokenization, sentence splitting)
-
-Maven – Build and dependency management
-
-SLF4J (Simple Logging Facade for Java) – Logging framework (slf4j-simple)
+Tool	Description
+💻 Java	Core programming language
+🧠 Stanford CoreNLP (v4.5.1)	Tokenization & sentence splitting
+📦 Maven	Project build and dependency management
+🪵 SLF4J (Simple Logging Facade for Java)	Logging (slf4j-simple)
 
 💡 Features
-Basic NLP preprocessing using CoreNLP (tokenize, ssplit)
+🧠 Basic NLP with CoreNLP annotators: tokenize, ssplit
 
-Rule-based keyword matching to respond to user inputs
+🧾 Rule-based keyword detection (e.g., hello, bye, weather)
 
-Console-based interaction using Scanner
+💬 Interactive console-based chatbot using Scanner
 
-Simple and clean architecture for beginner-level chatbot development
+🧱 Simple, modular structure ideal for learning or extension
 
 📦 How It Works
-User input is taken via the command line.
+text
+Copy
+Edit
+1. User inputs a message via the console.
+2. Stanford CoreNLP processes the text using basic annotators.
+3. The chatbot scans for known keywords (like "hello" or "weather").
+4. A relevant hardcoded response is returned.
+⚠️ Limitations
+❌ No machine learning or AI-based intent detection
 
-CoreNLP is used to tokenize and split the input into sentences.
+🧠 Lacks memory or contextual conversation handling
 
-The chatbot processes the input with basic keyword checks (e.g., "hello", "bye", "weather").
+⛔ Only responds to static keyword-based inputs
 
-A predefined response is returned based on the matched keyword.
+🎯 Ideal for students, beginners in NLP, or developers exploring chatbot development without deep AI.
 
-📌 Limitations
-No machine learning or AI-based intent detection
-
-Static responses with no memory or dialogue context
-
-Limited to basic interactions and keyword matching
-
-Feel free to modify the formatting to match your style. Let me know if you'd like to include usage instructions or add a setup section!
+Let me know if you want to include setup instructions, contribution guidelines, or screenshots!
